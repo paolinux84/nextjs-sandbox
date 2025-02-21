@@ -20,3 +20,10 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*override rules in tailwind modules */
+@layer base {
+  h1 {
+    @apply font-extrabold;
+  }
+}
